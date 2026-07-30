@@ -1,0 +1,12 @@
+items = ["苹果", "香蕉"]
+print(items[0],items[1],)
+items.append("橙子")
+print(items[0],items[1],items[2])
+items.insert(0, "梨")
+print(items[0],items[1],items[2],items[3])
+items.remove("香蕉")
+print(items[0],items[1],items[2])
+last = items.pop()
+print(last)
+items.sort()
+print(items[0],items[1],items[2])
