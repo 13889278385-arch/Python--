@@ -1,0 +1,22 @@
+def is_even(number=None):
+    if number is None:
+        raise ValueError("No number provided")
+    elif not number :   
+        return False
+    return number % 2 == 0
+
+print(is_even(4)) 
+print(is_even(5)) 
+print(is_even()) 
+
+
+
+
+# def is_even(number):
+#     if number is None:
+#         return False
+#     return number % 2 == 0
+
+# print(is_even(4)) 
+# print(is_even(5)) 
+# print(is_even()) 
